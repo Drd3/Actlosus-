@@ -1,0 +1,126 @@
+/*--ASIDE DE LA DERECHA--*/
+
+.userInfo{
+	margin-top: 10px;
+	background-color: #0A1B2A;
+	border-radius: 3px;
+}
+.username a {
+	font-size: 30px;
+	color: #FAFAFA;
+}
+.userProfile{
+	background-color: #0B243B;
+	color: #FAFAFA;
+}
+
+.userImage{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 70px;
+}
+
+.LVLInfo{
+	background-color: #0A2229;
+	padding-bottom: 1px;
+	border-radius: 3px;
+}
+
+.membersTittle {
+	background-color: #01A9DB;
+	padding-bottom: 3px;
+	border-radius: 1px;
+}
+.members {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #0B615E;
+	border: solid 2px #01A9DB;
+	border-radius: 2px;
+	font-size: 18px;
+}
+.members input {
+	margin-bottom: 5px;
+	height: 35px;
+	width: 100%;
+	border-radius: 1px;
+}
+.searchMember{
+	border-radius: 1px;
+}
+.member{
+	list-style: circle;
+	border-bottom: solid 1px #01A9DB;
+	
+}
+
+.member a {
+	color:  #FAFAFA;
+	text-decoration-line: none;
+	border-radius: 0px;
+	display: block;
+}
+
+.member a:hover {
+	background-color: #01A9DB;
+}
+
+.member a:active {
+	background-color: #088A85;
+}
+
+/*--TODO LO DE FORO--*/
+
+.clanMain{
+	border-top: 3px solid #01A9DB;
+	border-left: 3px solid #01A9DB;
+	border-right: 3px solid #01A9DB;
+}
+
+.clanName{
+	background-color: #01A9DB;
+	color: #FAFAFA;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.forumTittleClan{
+	background-color: #E6E6E6;
+	padding: 5px;
+}
+
+.buttonOptions{
+	
+}
+
+
+/*-----ASIDE DE INFO DEL CLAN--------*/
+
+.clanInfo{
+	background-color:  #E6E6E6;
+	border-top: solid #01A9DB;
+	border-radius: 3px;
+}
+
+.clanInfoTittle{
+	background-color: #01A9DB;
+	color: #FAFAFA;
+	text-align: center;
+	display: block;
+}
+
+.clanLider{
+	font-size: 17px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: #D8D8D8;
+}
+
+.clanDescription{
+	background-color: #D8D8D8;
+	padding: 5px;
+	margin-bottom: 5px;
+}

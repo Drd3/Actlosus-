@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang=es>
+	<head>
+		<title>Comunidad</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/community.css">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-ligth">
+			<a class="navbar-brand" href="#">
+				<img src="css/images/Actlosus.png" width="100px" alt="">
+			</a>
+			<a class="navbar-brand" href="#">Actlosus</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link btn btn-lg" href="#">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle btn btn-lg" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Universo
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item disabled" href="#">Panorama completo</a>
+							<a class="dropdown-item disabled" href="#">Videojuegos</a>
+							<a class="dropdown-item disabled" href="#">Personajes</a>
+							<a class="dropdown-item disabled" href="#">Especies</a>
+							<a class="dropdown-item disabled" href="#">Facciones</a>
+							<a class="dropdown-item disabled" href="#">Armas</a>
+							<a class="dropdown-item disabled" href="#">Vehiculos</a>
+							<a class="dropdown-item disabled" href="#">Tecnologias</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle btn  btn-lg" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Comunidad
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Foros</a>
+							<a class="dropdown-item" href="#">Clanes</a>
+						</div>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+				</form>
+				<ul class="navbar-nav navbar-right">
+					<li class="nav-item">
+						<a class="nav-link btn btn btn-outline-secondary" role="button" data-toggle="modal" data-target="#login" href="#">Ingresar</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="Ingresar" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="Ingresar">Iniciar secion</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+						  <div class="form-group">
+						    <label for="e-mail">Correo electronico</label>
+						    <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="Ingrese su correo">
+						    <small id="emailHelp" class="form-text text-muted">No comparta nunca su correo con alguien mas.</small>
+						  </div>
+						  <div class="form-group">
+						    <label for="password">Contraseña</label>
+						    <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+						    <p><a href="">Cambiar contraseña</a></p>
+						  </div>
+						  <div class="form-check">
+						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						    <label class="form-check-label" for="exampleCheck1">Recordar contraseña</label>
+						  </div>
+						  <div class="resgitrer">
+						  	<p>¿No tiene cuenta?<a href=""> registrese ahora</a></p>
+						  </div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						<button type="submit" class="btn btn-primary">Ingresar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="main container-fluid">
+			<div class="row">
+				<aside class="userProfile col-md-2">
+					<div class="userInfo text-center">
+						<img src="images/D3.jpg" class="userImage rounded-circle">
+						<p><span class="username"><a href="">Doctor D3</a></span><p>
+						<div class="LVLInfo">
+							<p><span class="userLVL">Marine de la UIME nivel:</span><br>
+								<span class="LVLNo">15</span>
+							</p>
+						</div>	
+					</div>
+					<div class="members" data-spy="scroll" data-offset="0">
+						<h3 class="membersTittle text-center">Integrantes</h3>
+						<input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" maxlength="10" placeholder="Buscar Integrante">
+
+						<a href="" class="searchMember btn btn-info btn-block">Buscar Integrante</a>
+						<ul class="membersList">
+							<li class="member"><a href="">JuanitoGamer003</a></li>
+							<li class="member"><a href="">[war]Casier</a></li>
+							<li class="member"><a href="">Killdress</a></li>
+							<li class="member"><a href="">Cristian Lopez</a></li>
+						</ul>
+					</div>
+				</aside>
+				<section class="clanMain col-md-10">	
+					<h1 class="clanName row">Control Alkaico</h1>
+					<div class="row">
+						<section class="clanForum col-md-9">
+							<h2 class="forumTittleClan">Foro</h2>
+							<div class="clanForumContent">
+								<div class="writeComment">
+									<textarea class="Comment form-control" aria-label="With textarea"></textarea>
+									<div class="optionComment">
+										<a href="" class="buttonOptions">Subir foto</a>
+										<span class="buttonOptionsLine"></span>
+										<a href="" class="buttonOptions">Subir video</a>
+									</div>
+								</div>
+							</div>
+						</section>
+						<aside class="clanInfo col-md-3 hidden-sm hidden-xm">
+							<h3 class="clanInfoTittle row">Info del clan</h3>
+							<div class="clanLider text-center">
+								<span class="clanCaptain">
+									<strong>Capitan del clan:</strong>
+								</span><br>
+								<span class="clanCaptainName"><a href="">
+									Doctor D3
+								</a></span>
+							</div>
+							<div class="clanDescription">
+								<p class="text-justify">
+									Somos un clan orientado a dar un ejemplo de como lucirian las descripciones de los clanes, en este pedazo se encuentra la descripcion del clan
+								</p>
+							</div>
+							<div class="awards">
+								<h3 class="awardsTittle">Logros</h3>
+								<ul class="awardsList">
+									<li class="award">Por tomar un baso de leche</li>
+									<li class="award">Por mear sentado</li>
+									<li class="award">Por hacer algo que se premiaba</li>
+								</ul>
+							</div>
+						</aside>
+					</div>
+				</section>
+		</section>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

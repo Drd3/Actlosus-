@@ -1,3 +1,8 @@
+nav li{
+	margin-right: 5px;
+	margin-right: 5px;
+}
+
 /*--ASIDE DE LA DERECHA--*/
 
 .userInfo{
@@ -92,17 +97,32 @@
 	padding: 5px;
 }
 
-.buttonOptions{
-	
+.optionCommentList{
+	margin-top: 10px;
 }
 
+.optionCommentList li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 5px;
+	margin-right: 20px; 
+
+}
+.optionCommentList li a{
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.optionCommentList li a:hover{
+	background-color: #E6E6E6;
+	text-decoration-line: none;
+}
 
 /*-----ASIDE DE INFO DEL CLAN--------*/
 
 .clanInfo{
 	background-color:  #E6E6E6;
 	border-top: solid #01A9DB;
-	border-radius: 3px;
 }
 
 .clanInfoTittle{
